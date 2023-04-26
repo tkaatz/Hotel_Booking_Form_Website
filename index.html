@@ -9,82 +9,84 @@
 </head>
 
 <body>
-  <h1>Three Rivers Resort</h1>
-  <h2><em>Pittsburgh's Finest Luxury Destination</em></h4>
-  <form>
-    <div class="leftcolumn">
-      <div class="leftblock">
-        <label for="firstname">First Name:</label>
-        <br>
-        <input type="text" name="firstname" required>
+  <main class="formContainer">
+    <h1>Three Rivers Resort</h1>
+    <h2><em>Pittsburgh's Finest Luxury Destination</em></h4>
+    <form>
+      <div class="leftcolumn">
+        <div class="leftblock">
+          <label for="firstname">First Name:</label>
+          <br>
+          <input type="text" name="firstname" required>
+        </div>
       </div>
-    </div>
 
-    <div class="rightcolumn">
-      <div class="rightblock">
-        <label for="lastname">Last Name:</label>
-        <br>
-        <input type="text" name="lastname" required>
+      <div class="rightcolumn">
+        <div class="rightblock">
+          <label for="lastname">Last Name:</label>
+          <br>
+          <input type="text" name="lastname" required>
+        </div>
       </div>
-    </div>
 
-    <div class="leftcolumn">
-      <div class="leftblock">
-        <label for="email">Email:</label>
-        <br>
-        <input type="email" name="email" required>
+      <div class="leftcolumn">
+        <div class="leftblock">
+          <label for="email">Email:</label>
+          <br>
+          <input type="email" name="email" required>
+        </div>
       </div>
-    </div>
 
-    <div class="rightcolumn">
-      <div class="rightblock">
-        <label for="address">Address:</label>
-        <br>
-        <input type="text" name="address" required>
+      <div class="rightcolumn">
+        <div class="rightblock">
+          <label for="address">Address:</label>
+          <br>
+          <input type="text" name="address" required>
+        </div>
       </div>
-    </div>
 
-    <div class="leftcolumn">
-      <div class="leftblock">
-        <label for="rooms">Rooms:</label>
-        <br>
-        <select type="text" id="rooms" required>
-          <option disabled selected value>Select Number of Rooms</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-        </select>
-      </div>    
-    </div>  
-      
-    <div class="rightcolumn">
-      <div class="rightblock">
-        <label for="adults">Adults:</label>
-        <br>
-        <select name="adults" id="adults" required>
-          <option disabled selected value>Select Number of Adults</option>
+      <div class="leftcolumn">
+        <div class="leftblock">
+          <label for="rooms">Rooms:</label>
+          <br>
+          <select type="text" id="rooms" required>
+            <option disabled selected value>Select Number of Rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>    
+      </div>  
+        
+      <div class="rightcolumn">
+        <div class="rightblock">
+          <label for="adults">Adults:</label>
+          <br>
+          <select name="adults" id="adults" required>
+            <option disabled selected value>Select Number of Adults</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="bottomblock">
+        <label for="nights">Nights:</label>
+        <select name="nights" id="nights" required>
+          <option disabled selected value>Select Number of Nights</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
         </select>
       </div>
-    </div>
 
-    <div class="bottomblock">
-      <label for="nights">Nights:</label>
-      <select name="nights" id="nights" required>
-        <option disabled selected value>Select Number of Nights</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-      </select>
-    </div>
-
-    <button type="submit">Confirm Reservation</button>
-  </form>
+      <button type="submit">Confirm Reservation</button>
+    </form>
+  </main>
 </body>
 </html>

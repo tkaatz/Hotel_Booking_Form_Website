@@ -1,13 +1,36 @@
 body {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/50/737/199/river-germany-resort-gyrus-wallpaper-preview.jpg); background-repeat: no-repeat;
-  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/pexels-jeshootscom-576832.jpg);
+  background-size: 101%;
+  background-repeat: no-repeat;
   text-align: center;
+  background-color: rgb(15, 118, 144);
+  color: rgb(4, 44, 89);
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 0.927);
+  width: fit-content;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 1vw;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
-  margin-top: 40px;
+  text-transform: uppercase;
+  color: rgb(4, 44, 89);
+  margin-top: 0px;
   margin-bottom: 0px;
   font-size: 48px;
+}
+
+em {
+  color: rgb(4, 44, 89);
 }
 
 form {
